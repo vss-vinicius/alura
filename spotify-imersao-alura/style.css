@@ -1,36 +1,114 @@
 @charset "UTF-8";
 
 body {
+    /*Box model stuff*/
     background-color: #000000;
 }
 
 div.sidebar {
+    /*Positioning stuff*/
     position: fixed;
-    top: 0;
     left: 0;
+    top: 0;
     bottom: 0;
-    padding: 12px;
+    /*Box model stuff*/
     width: 300px;
+    padding: 12px;
 }
 
 nav.sidebar__navigation {
-    background-color: #121212;
-    border-radius: 8px;
+    /*Box model stuff*/
     padding: 16px 0 0 16px;
+    border-radius: 8px;
+    background-color: #121212;
 }
 
 div.logo {
-    background: #121212;
+    /*Display stuff*/
     display: flex;
-    border-radius: 8px;
+    /*Box model stuff*/
     padding: 16px 0 0 16px;
+    border-radius: 8px;
+    background: #121212;
 }
 
 div.logo img {
+    /*Box model stuff*/
     width: 80px;
 }
 
 nav.sidebar__navigation ul {
+    /*Box model stuff*/
     margin-top: 20px;
     padding: 0 20px 10px 20px;
+}
+
+nav.sidebar__navigation ul li {
+    /*Box model stuff*/
+    padding: 10px 0;
+}
+
+nav.sidebar__navigation ul li a {
+    /*Typography stuff*/
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+div.library {
+    /*Display stuff*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*Box model stuff*/
+    margin-top: 10px;
+    padding: 4px 8px;
+    border-radius: 8px;
+    background-color: #121212;
+    /*Typography stuff*/
+    font-size: 14px;
+    font-weight: 600;
+    color: #b3b3b3;
+    /*Miscellaneous*/
+    min-block-size: 40px;
+}
+
+div.library__content {
+    /*Display stuff*/
+    display: flex;
+    justify-content: space-between;
+}
+
+button.library__button {
+    /*Display stuff*/
+    display: flex;
+    /*Box model stuff*/
+    margin-right: 10px;
+    padding: 20px 10px;
+    border: 0px;
+    background-color: transparent;
+    /*Typography stuff*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    color: #b3b3b3;
+}
+
+button.library__button span.fa {
+    /*Box model stuff*/
+    margin-right: 10px;
+    padding-right: 8px;
+    /*Typography stuff*/
+    font-size: 20px;
+    font-weight: 300;
+}
+
+div.library span.fa-plus {
+    /*Box model stuff*/
+    margin: 24px 10px;
 }
