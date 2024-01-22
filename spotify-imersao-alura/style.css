@@ -29,3 +29,8 @@ div.logo {
 div.logo img {
     width: 80px;
 }
+
+nav.sidebar__navigation ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
