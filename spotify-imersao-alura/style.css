@@ -112,3 +112,101 @@ div.library span.fa-plus {
     /*Box model stuff*/
     margin: 24px 10px;
 }
+
+section.section-playlist {
+    /*Display stuff*/
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    /*Box model stuff*/
+    margin: 8px 0px;
+    padding: 16px 20px;
+    border-radius: 10px;
+    background-color: #242424;
+    /*Typography stuff*/
+    font-size: 14px;
+    font-weight: 600;
+    color: #b3b3b3;
+    /*Miscellaneous*/
+    gap: 20px;
+}
+
+div.section-playlist__content {
+    /*Display stuff*/
+    display: flex;
+    flex-direction: column;
+}
+
+div.section-playlist__content span.text {
+    /*Box model stuff*/
+    padding-bottom: 14px;
+    /*Typography stuff*/
+    font-family: "DM Sans", sans-serif;
+    color: #ffffff;
+}
+
+div.section-playlist__content span.title {
+    /*Typography stuff*/
+    font-weight: 700;
+}
+
+div.section-playlist__content span.subtitle {
+    /*Typography stuff*/
+    font-size: 12px;
+    font-weight: 500;
+}
+
+button.section-playlist__button {
+    /*Display stuff*/
+    display: flex;
+    justify-content: center;
+    /*Box model stuff*/
+    width: 113px;
+    margin-top: 12px;
+    padding: 10px;
+    border: 0;
+    border-radius: 20px;
+    background-color: #ffffff;
+    /*Typography stuff*/
+    font-family: "DM Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    color: #000000;
+}
+
+div.cookies {
+    /*Box model stuff*/
+    margin: 25px 20px;
+}
+
+div.cookies a {
+    /*Typography stuff*/
+    font-size: 10px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+div.cookies a:hover {
+    /*Typography stuff*/
+    text-decoration: underline;
+}
+
+button.languages__button {
+    /*Display stuff*/
+    align-items: center;
+    /*Box model stuff*/
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+    border: 1px solid #878787;
+    border-radius: 20px;
+    background-color: transparent;
+    /*Typography stuff*/
+    font-weight: bold;
+    color: #ffffff;
+    /*Miscellaneous*/
+    cursor: pointer;
+}
