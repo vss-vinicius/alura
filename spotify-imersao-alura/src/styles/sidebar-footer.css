@@ -3,7 +3,11 @@
 body {
     /*Box model stuff*/
     background-color: #000000;
+    /*Typography stuff*/
+    font-family: var(--font-dm-sans);
 }
+
+/* sidebar */
 
 div.sidebar {
     /*Positioning stuff*/
@@ -50,7 +54,6 @@ nav.sidebar__navigation ul li {
 
 nav.sidebar__navigation ul li a {
     /*Typography stuff*/
-    font-family: "DM Sans", sans-serif;
     font-size: 14px;
     font-weight: 600;
     text-decoration: none;
@@ -90,7 +93,6 @@ button.library__button {
     border: 0px;
     background-color: transparent;
     /*Typography stuff*/
-    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     font-weight: 700;
     text-align: center;
@@ -141,7 +143,6 @@ div.section-playlist__content span.text {
     /*Box model stuff*/
     padding-bottom: 14px;
     /*Typography stuff*/
-    font-family: "DM Sans", sans-serif;
     color: #ffffff;
 }
 
@@ -168,7 +169,6 @@ button.section-playlist__button {
     border-radius: 20px;
     background-color: #ffffff;
     /*Typography stuff*/
-    font-family: "DM Sans", sans-serif;
     font-size: 12px;
     font-weight: 700;
     text-decoration: none;
@@ -207,6 +207,64 @@ button.languages__button {
     /*Typography stuff*/
     font-weight: bold;
     color: #ffffff;
+    /*Miscellaneous*/
+    cursor: pointer;
+}
+
+/* footer */
+
+footer.disclaimer-premium {
+    /*Display stuff*/
+    display: flex;
+    justify-content: space-between;
+    /*Positioning stuff*/
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /*Box model stuff*/
+    padding: 15px 40px;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+}
+
+footer.disclaimer-premium div.text {
+    /*Display stuff*/
+    flex-shrink: 0;
+    /*Box model stuff*/
+    padding-bottom: 14px;
+    /*Typography stuff*/
+    color: #ffffff;
+}
+
+p.disclaimer-premium__title {
+    /*Box model stuff*/
+    margin-bottom: 10px;
+    /*Typography stuff*/
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+p.disclaimer-premium__subtitle {
+    /*Typography stuff*/
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+div.button button {
+    /*Display stuff*/
+    flex-shrink: 0;
+    /*Box model stuff*/
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    background-color: #ffffff;
+    /*Typography stuff*/
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
     /*Miscellaneous*/
     cursor: pointer;
 }
