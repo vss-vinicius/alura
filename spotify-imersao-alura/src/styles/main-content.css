@@ -46,7 +46,6 @@ button.arrow-right {
     border: none;
     border-radius: 50%;
     background-color: var(--bg-arrow-color);
-    background: var(--br-icon);
     /*Miscellaneous*/
     cursor: pointer;
 }
@@ -91,3 +90,28 @@ input#search-input {
     white-space: nowrap;
 }
 
+div.header__login button.subscribe {
+    /*Box model stuff*/
+    margin-right: 32px;
+    border: none;
+    background-color: transparent;
+    /*Typography stuff*/
+    font-size: 16px;
+    font-weight: 700;
+    color: #a7a7a7;
+    /*Miscellaneous*/
+    cursor: pointer;
+}
+
+div.header__login button.login {
+    /*Box model stuff*/
+    width: 100px;
+    height: 48px;
+    border-radius: 40px;
+    /*Typography stuff*/
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+    /*Miscellaneous*/
+    cursor: pointer;
+}
