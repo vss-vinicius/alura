@@ -115,3 +115,330 @@ div.header__login button.login {
     /*Miscellaneous*/
     cursor: pointer;
 }
+
+/* PLaylist */
+
+div.playlist-container {
+    /*Box model stuff*/
+    height: 68vh;
+    margin: 10px;
+    padding-top: 16px;
+    border-radius: 10px;
+    background-color: #121212;
+}
+
+div.playlist {
+    /*Box model stuff*/
+    margin: 24px;
+}
+
+div.playlist h1#greeting {
+    /*Box model stuff*/
+    margin-bottom: 48px;
+    /*Typography stuff*/
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+}
+
+div.playlist h2.session {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* Scroll */
+
+div.offer__scroll-container {
+    max-height: 43vh;
+    margin: 24px;
+    overflow-y: auto;
+}
+
+div.offer__scroll-container::-webkit-scrollbar {
+    width: 1px;
+}
+
+div.offer__scroll-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+/* Fim Scroll */
+
+/* Código com JavaScript calculando os cards por coluna */
+
+section.offer__list-item {
+    /*Display stuff*/
+    display: grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    /*Box model stuff*/
+    margin: 0 auto;
+    margin-bottom: 16px;
+    /*Miscellaneous*/
+    grid-gap: 16px;
+    gap: 16px;
+    gap: 16px;
+    grid-gap: 32px;
+}
+
+.cards {
+    /*Positioning stuff*/
+    position: relative;
+    /*Box model stuff*/
+    width: 220px;
+    height: 200px;
+    border-radius: 8px;
+    /*Miscellaneous*/
+    overflow: hidden;
+}
+
+.cards span {
+    /*Positioning stuff*/
+    position: absolute;
+    /*Box model stuff*/
+    padding: 16px;
+    /*Typography stuff*/
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* Color cards */
+
+div.card1 {
+    /*Box model stuff*/
+    background-color: rgb(0, 100, 80);
+}
+
+div.card2 {
+    /*Box model stuff*/
+    background-color: rgb(132, 0, 231);
+}
+
+div.card3 {
+    /*Box model stuff*/
+    background: rgb(30, 50, 100);
+}
+
+div.card4 {
+    /*Box model stuff*/
+    background: rgb(140, 25, 50);
+}
+
+div.card5 {
+    /*Box model stuff*/
+    background: rgb(232, 17, 91);
+}
+
+div.card6 {
+    /*Box model stuff*/
+    background: rgb(83, 122, 161);
+}
+
+div.card7 {
+    /*Box model stuff*/
+    background: rgb(142, 102, 172);
+}
+
+div.card8 {
+    /*Box model stuff*/
+    background: rgb(20, 138, 8);
+}
+
+div.card9 {
+    /*Box model stuff*/
+    background: rgb(30, 50, 100);
+}
+
+div.card10 {
+    /*Box model stuff*/
+    background: rgb(233, 20, 41);
+}
+
+div.card11 {
+    /*Box model stuff*/
+    background: rgb(80, 55, 80);
+}
+
+div.card12 {
+    /*Box model stuff*/
+    background: rgb(216, 64, 0);
+}
+
+div.card13 {
+    /*Box model stuff*/
+    background: rgb(186, 93, 7);
+}
+
+div.card14 {
+    /*Box model stuff*/
+    background: rgb(0, 30, 80);
+}
+
+div.card15 {
+    /*Box model stuff*/
+    background: rgb(60, 30, 80);
+}
+
+/* Fim color cards */
+
+section.offer__list-item img {
+    /*Positioning stuff*/
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    /*Box model stuff*/
+    width: 107px;
+    height: auto;
+    /*Manipulations stuff*/
+    transform: rotate(25deg) translate(18%, -2%);
+}
+
+/* Card artista */
+
+.artist {
+    /*Miscellaneous*/
+    --column-count: 5;
+    --grid-gap: 24px;
+    --min-container-width: 372px;
+}
+
+div.hidden {
+    /*Display stuff*/
+    display: none;
+}
+
+div.grid-container {
+    /*Display stuff*/
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    /*Box model stuff*/
+    min-width: 767px;
+    /*Miscellaneous*/
+    grid-gap: 24px;
+}
+
+div.artist-card {
+    /*Display stuff*/
+    flex: 1;
+    /*Positioning stuff*/
+    position: relative;
+    /*Box model stuff*/
+    width: 100%;
+    padding: 16px;
+    border-radius: 8px;
+    background: #181818;
+    /*Manipulations stuff*/
+    transition: background-color 0.3s ease;
+    /*Miscellaneous*/
+    -ms-flex: 1;
+    isolation: isolate;
+}
+
+div.artist-card:hover {
+    /*Box model stuff*/
+    background-color: #252525;
+}
+
+div.card-img {
+    /*Positioning stuff*/
+    position: relative;
+    /*Box model stuff*/
+    width: 100%;
+    margin-bottom: 16px;
+    padding-bottom: 100%;
+}
+
+img.artist-img {
+    /*Positioning stuff*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    /*Box model stuff*/
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+div.card-text {
+    /*Display stuff*/
+    display: flex;
+    flex-direction: column;
+    /*Box model stuff*/
+    min-height: 62px;
+    /*Typography stuff*/
+    text-overflow: ellipsis;
+    color: #fff;
+    /*Miscellaneous*/
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+div.card-text a {
+    /*Display stuff*/
+    display: inline-block;
+    /*Box model stuff*/
+    max-width: 100%;
+    /*Miscellaneous*/
+    vertical-align: middle;
+}
+
+span.artist-name {
+    /*Typography stuff*/
+    font-size: 16px;
+    font-weight: 700;
+    /*Miscellaneous*/
+    box-sizing: border-box;
+    margin-block: 0px;
+    padding-block-end: 8px;
+}
+
+span.artist-categorie {
+    /*Typography stuff*/
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #6a6a6a;
+}
+
+div.play {
+    /*Positioning stuff*/
+    position: relative;
+}
+
+div.play span.fa-play {
+    /*Positioning stuff*/
+    position: absolute;
+    right: 10px;
+    top: 120px;
+    /*Box model stuff*/
+    padding: 18px;
+    border-radius: 100%;
+    background-color: #1db954;
+    /*Typography stuff*/
+    font-size: 14px;
+    /*Manipulations stuff*/
+    transition: all ease 0.4s;
+    opacity: 0;
+}
+
+div.artist-card:hover div.play span.fa-play {
+    /*Manipulations stuff*/
+    transform: translateY(-20px);
+    opacity: 1;
+}
+
+div.play span.fa-play:hover {
+    /*Box model stuff*/
+    padding: 20px;
+    /*Miscellaneous*/
+    cursor: pointer;
+}
+
+div#result-artist {
+    /*Box model stuff*/
+    padding: 20px 40px;
+}
+
+/* Fim card artista */
