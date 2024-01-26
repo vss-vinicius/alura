@@ -76,7 +76,7 @@ div.header__search img {
     margin-left: 10px;
 }
 
-#search-input {
+input#search-input {
     /*Box model stuff*/
     padding: 0 100px 0 12px;
     border: none;
@@ -432,7 +432,7 @@ div.play span.fa-play:hover {
     cursor: pointer;
 }
 
-#result-artist {
+div#result-artist {
     /*Box model stuff*/
     padding: 20px 40px;
 }
