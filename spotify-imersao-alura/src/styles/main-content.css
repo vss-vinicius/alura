@@ -76,7 +76,7 @@ div.header__search img {
     margin-left: 10px;
 }
 
-input#search-input {
+#search-input {
     /*Box model stuff*/
     padding: 0 100px 0 12px;
     border: none;
@@ -170,17 +170,13 @@ div.offer__scroll-container::-webkit-scrollbar-thumb {
 section.offer__list-item {
     /*Display stuff*/
     display: grid;
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-items: center;
     /*Box model stuff*/
-    margin: 0 auto;
     margin-bottom: 16px;
     /*Miscellaneous*/
     grid-gap: 16px;
     gap: 16px;
-    gap: 16px;
-    grid-gap: 32px;
 }
 
 .cards {
@@ -436,7 +432,7 @@ div.play span.fa-play:hover {
     cursor: pointer;
 }
 
-div#result-artist {
+#result-artist {
     /*Box model stuff*/
     padding: 20px 40px;
 }
